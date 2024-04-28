@@ -1,5 +1,5 @@
-# factory4.0
-Project for the factory4.0 lecture
+# industry4.0
+Project for the industry4.0 lecture
 (written in Python)
 ## Used resources
 [request didn't work](https://stackoverflow.com/questions/67660164/submitting-form-data-with-python-requests-post-not-working) \
