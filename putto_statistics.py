@@ -29,6 +29,8 @@ def showStats():
         soup = BeautifulSoup(r.content,'html.parser')
         table = soup.find('table')
         if table is None:
+            plotA.clear()
+            plotB.clear()
             fig.suptitle("Results: none")
             canvas.draw()
             canvas.get_tk_widget().pack()
